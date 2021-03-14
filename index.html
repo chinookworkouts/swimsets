@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name=”apple-mobile-web-app-capable” content=”yes”>
 
     <title>Practice Writer</title>
     <script>
@@ -13,9 +14,21 @@
     </script>
 </head>
 
-<body style="font-family:'Courier New', Courier, monospace">
-    <div id="Timer" style="text-align: center; font-size: 45vh; font-weight: bold;">
-        <div id="topClock" style="user-select: none; -moz-user-select: none; width: 2160px; height: 1620px;background-color: black;color: red;" onclick="change('topClock')">
+<body style="font-family:'Courier New', Courier, monospace; padding: 0; margin: 0;">
+    <div id="Timer" style="font-weight: bold;">
+        <div id="topClock" style="position: absolute; user-select: none; -moz-user-select: none; width: 2160px; height: 810px;background-color: black;color: red;">
+            <div style="position: absolute; left: 200px; top: 100px; font-size: 600px;">01:10</div>
+            <div style="position: absolute; left: 1540px; top: 0px; font-size: 200px;">00:45</div>
+            <div style="position: absolute; left: 1540px; top: 600px; font-size: 200px;">18:20</div>
+            <div style="position: absolute; left: 0px; top: 0px; font-size: 200px;">12/12</div>
+            <div style="position: absolute; left: 0px; top: 600px; font-size: 200px;">03/03</div>
+        </div>
+        <div id="topClock" style="position: absolute; top: 810px; user-select: none; -moz-user-select: none; width: 2160px; height: 810px;background-color: black;color: red;">
+            <div style="position: absolute; left: 200px; top: 100px; font-size: 600px;">01:10</div>
+            <div style="position: absolute; left: 1540px; top: 0px; font-size: 200px;">00:45</div>
+            <div style="position: absolute; left: 1540px; top: 600px; font-size: 200px;">18:20</div>
+            <div style="position: absolute; left: 0px; top: 0px; font-size: 200px;">12/12</div>
+            <div style="position: absolute; left: 0px; top: 600px; font-size: 200px;">03/03</div>
         </div>
     </div>
     <script>
